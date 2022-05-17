@@ -1,0 +1,48 @@
+Canvas{
+    background-color: rgb(204, 204, 204);
+}
+input[type=number]{
+    width: 50px;
+}
+
+#KategorijeContaner{
+    display: grid;
+    height: 50px;
+    grid-template-columns: 3fr 4fr;
+}
+#GrobiElementi{
+    padding: 4px;
+    background-color: lightblue;
+    border: 1px black solid;
+}
+#NatancniElementi{
+
+    background-color: rgb(83, 203, 240);
+    border: 1px black solid;
+}
+#RisalnaPovrsinaContaner{
+    display: grid;
+    grid-template-columns: 1fr 802px 3fr;
+    column-gap: 5px;
+}
+#OrodnaVrstica{
+    background-color: lightblue;
+    border: 1px black solid;
+}
+#RisalnaPovrsina{
+    border: 1px black solid;
+}
+#DetailiElementa{
+    background-color: lightblue;
+    border: 1px black solid;
+}
+.gumb{
+    height: 40px;
+    width: 60px;
+    padding: 0px;
+}
+.gumb2{
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+}

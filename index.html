@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EditorV1</title>
+</head>
+
+<body>
+    <div id="KategorijeContaner">
+
+        <div id="GrobiElementi">
+            <button onclick="PokaziGradice()" class="gumb">Gradice</button>
+            <button onclick="PokaziDrevesa()" class="gumb">Drevesa</button>
+            <button onclick="PokaziPot()" id="butt3" class="gumb">Pot/Tlak</button>
+            <button class="gumb" onclick="PokaziMeje()">Meje</button>
+            <button class="gumb" onclick="PokaziGrme()">Grmi</button>
+            <button class="gumb" onclick="PokaziVodneElemente()">Vodni el</button>
+            <br>
+        </div>
+
+        <div id="NatancniElementi"></div>
+
+    </div>
+    <br>
+    <div id="RisalnaPovrsinaContaner">
+        <div id="OrodnaVrstica">
+            <label for="Grid">Grid</label>
+            <input type="checkbox" id="Grid" onclick="Grid()">
+        </div>
+        <div id="RisalnaPovrsina">
+            <canvas id="myCanvas"></canvas>
+        </div>
+        <div id="DetailiElementa"></div>
+    </div>
+    
+    <script src="UI.js"></script>
+    <script src="objects.js"></script>
+    <script src="myscripts.js"></script>
+
+</body>
+
+</html>
